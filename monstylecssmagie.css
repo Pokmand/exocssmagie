@@ -29,7 +29,7 @@
 }
 
 /* Petit Ecran : Paragraphes fond rouge et inscription Petit écran par défaut */
-@@media all and (min-width: 1px) and (max-width: 480px) {
+@media all and (min-width: 1px) and (max-width: 480px) {
   .container {
     background-color: Red
   }
