@@ -1,0 +1,44 @@
+/* Ecran Large Paragraphes fond vert et inscription grand écran par défaut */
+@media all {
+  .container {
+    background-color: green
+  }
+
+  .mediumscreen {
+    color: green
+  }
+
+  .smallscreen {
+    color: green
+  }
+}
+
+/* Moyen Ecran :Paragraphes fond orange et inscription Moyen écran par défaut */
+@media all and (min-width: 480px) and (max-width: 900px) {
+  .container {
+    background-color: orange
+  }
+
+  .largescreen {
+    color: orange
+  }
+
+  .smallscreen {
+    color: orange
+  }
+}
+
+/* Petit Ecran : Paragraphes fond rouge et inscription Petit écran par défaut */
+@@media all and (min-width: 1px) and (max-width: 480px) {
+  .container {
+    background-color: Red
+  }
+
+  .largescreen {
+    color: red
+  }
+
+  .mediumscreen {
+    color: red
+  }
+}
